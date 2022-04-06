@@ -11,7 +11,7 @@ export class EmployeeDashboardComponent implements OnInit {
   formValue !: FormGroup;
   employees !: any;
   ShowAddbutton : boolean = true;
-  employeeModels: EmployeeModels= new EmployeeModels();
+  employeeModels !: EmployeeModels;
   constructor(private formbuilder : FormBuilder,
               private api : ApiService,
 
