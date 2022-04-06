@@ -1,18 +1,47 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id": 8,
+      "firstName": "Corporis similique e",
+      "lastName": "Porro repellendus C",
+      "email": "vozacite@mailinator.com",
+      "mobile": "Nisi mollit mollitia",
+      "salary": "Nulla excepturi exce"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 10,
+      "firstName": "Praesentium lorem ex",
+      "lastName": "Consequatur sit in q",
+      "email": "viky@mailinator.com",
+      "mobile": "Ea ea veniam possim",
+      "salary": "Aut quia autem aliqu"
+    },
+    {
+      "id": 11,
+      "firstName": "Fugiat lorem nisi cu",
+      "lastName": "Enim libero ut totam",
+      "email": "vunuzy@mailinator.com",
+      "mobile": "Pariatur Aut velit ",
+      "salary": "Dolor id nihil conse"
+    },
+    {
+      "id": 12,
+      "firstName": "Iste voluptatum et p",
+      "lastName": "Dolorem ullamco et q",
+      "email": "zumuzufy@mailinator.com",
+      "mobile": "Culpa iusto commodi ",
+      "salary": "Sunt nulla consequat"
+    },
+    {
+      "id": 13,
+      "firstName": "Veritatis ut sint of",
+      "lastName": "Est eum irure assume",
+      "email": "poheqecez@mailinator.com",
+      "mobile": "Voluptatem Nemo in ",
+      "salary": "Tempore velit qui a"
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
