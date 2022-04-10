@@ -1,6 +1,6 @@
 <h5> CRUDProject with json-server (full fake REST API)</h5?>
 
-# CRUDP
+# CRUD Home Page
  <img src="../master/screen/home.png" alt="">
 
 # edit
@@ -9,3 +9,11 @@
  
  # json
  <img src="../master/screen/json.png" alt="">
+ 
+ 
+  # login
+ <img src="../master/screen/login.png" alt="">
+
+
+  # SignUp
+ <img src="../master/screen/SignUp.png" alt="">
