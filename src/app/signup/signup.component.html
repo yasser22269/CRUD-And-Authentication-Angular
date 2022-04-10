@@ -1,13 +1,40 @@
 <div class="flex">
 
 
-  <h2>login </h2>
+  <h2>Sign Up</h2>
 
   <form [formGroup]="form">
+
+    <div class="form-group">
+      <label >Full Name</label>
+
+      <input type="text"  class="form-control"
+             formControlName="fullName" >
+      <div class="alert alert-danger" role="alert"
+           *ngIf="fullName.touched && fullName.invalid"
+      >
+        <div  *ngIf="fullName.errors?.required  || fullName.value.length == 0">
+          please Enter Your Email
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label >Mobile Number</label>
+
+      <input type="number"  class="form-control"
+             formControlName="fullName" >
+      <div class="alert alert-danger" role="alert"
+           *ngIf="mobile.touched && mobile.invalid"
+      >
+        <div  *ngIf="mobile.errors?.required  || mobile.value.length == 0">
+          please Enter Your Email
+        </div>
+      </div>
+    </div>
     <div class="form-group">
       <label >Email address</label>
 
-      <input type="text" id="email" class="form-control"   (change) = "logObj(email)"
+      <input type="text" class="form-control"
              formControlName="email" >
       <div class="alert alert-danger" role="alert"
            *ngIf="email.touched && email.invalid"
@@ -15,7 +42,6 @@
         <div  *ngIf="email.errors?.required  || email.value.length == 0">
           please Enter Your Email
         </div>
-
       </div>
     </div>
     <div class="form-group">
@@ -23,6 +49,7 @@
       <input type="password" class="form-control" id="exampleInputPassword1"  formControlName="password">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
+    <a routerLink="/login"><button type="submit" class="btn btn-secondary">Login</button></a>
   </form>
 
 </div>

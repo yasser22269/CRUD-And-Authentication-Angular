@@ -22,7 +22,9 @@ export class SignupComponent implements OnInit {
 
   form = new FormGroup({
     email : new FormControl('' , [Validators.required] ),
-    password : new FormControl('' ),
+    password : new FormControl('' , [Validators.required]),
+    fullName : new FormControl('', [Validators.required] ),
+    mobile : new FormControl('' , [Validators.required]),
   })
 
 
@@ -31,6 +33,14 @@ export class SignupComponent implements OnInit {
   }
   get password (): any{
     return this.form.get('password');
+  }
+
+
+  get fullName (): any{
+    return this.form.get('fullName');
+  }
+  get mobile (): any{
+    return this.form.get('mobile');
   }
 
 }

@@ -22,7 +22,9 @@
   width: 400px;
 }
 .flex button {
-  display: block;
-  width: 200px;
-  margin: 0 auto;
+  display: inline-block;
+  width: 47%;
+}
+.flex button:last-child {
+  margin: 0 0 0 10px;
 }
