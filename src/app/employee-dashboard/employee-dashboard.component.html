@@ -2,7 +2,11 @@
   <div class="container-fluid">
     <h1 style="color: #fff;">Angular CRUD</h1>
     <div class="d-flex">
-      <button class="btn btn-success"(click)="AddButton()" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Employee</button>
+      <button class="btn btn-success"(click)="AddButton()" style="margin-right: 10px"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">Add Employee</button>
+      <button class="btn btn-info"*ngIf="authApi.loggedIn()" (click)="authApi.loggedOutUser()"
+              >logged Out</button>
+
     </div>
   </div>
 </nav>

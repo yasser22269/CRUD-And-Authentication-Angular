@@ -1,14 +1,6 @@
 {
   "posts": [
     {
-      "id": 10,
-      "firstName": "Praesentium lorem ex",
-      "lastName": "Consequatur sit in q",
-      "email": "viky@mailinator.com",
-      "mobile": "Ea ea veniam possim",
-      "salary": "Aut quia autem aliqu"
-    },
-    {
       "id": 11,
       "firstName": "Fugiat lorem nisi cu",
       "lastName": "Enim libero ut totam",
@@ -97,7 +89,50 @@
       "salary": "312"
     }
   ],
-  "comments": [],
+  "SignUpUsers": [
+    {
+      "email": "yasser.m22291@gmail.com",
+      "password": "123456789",
+      "fullName": "yasser Abd Elghany",
+      "mobile": 1064146183,
+      "id": 1
+    },
+    {
+      "email": "Labore mollit incidu",
+      "password": "Pa$$w0rd!",
+      "fullName": "Ea reprehenderit la",
+      "mobile": 25,
+      "id": 2
+    },
+    {
+      "email": "Quasi dolorem velit ",
+      "password": "Pa$$w0rd!",
+      "fullName": "Veritatis odio excep",
+      "mobile": 3,
+      "id": 3
+    },
+    {
+      "email": "aaa@aaa.com",
+      "password": "1234567",
+      "fullName": "yasser Abd Elghany",
+      "mobile": 1064146183,
+      "id": 4
+    },
+    {
+      "email": "aaa@aaa.com",
+      "password": "1234567",
+      "fullName": "yasser Abd Elghany",
+      "mobile": 1064146183,
+      "id": 5
+    },
+    {
+      "email": "Maiores qui ducimus",
+      "password": "Pa$$w0rd!",
+      "fullName": "Cupiditate aute accu",
+      "mobile": 37,
+      "id": 6
+    }
+  ],
   "profile": {
     "name": "typicode"
   }

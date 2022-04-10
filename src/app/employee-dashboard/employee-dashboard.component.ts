@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder,FormGroup} from "@angular/forms";
 import {EmployeeModels} from "./employee.models";
-import {ApiService} from "../shared/api.service";
+import {ApiService} from "../shared/Services/api.service";
 import { ToastrService } from 'ngx-toastr';
+import {AuthApiService} from "../shared/Services/auth-api.service";
 
 
 @Component({
@@ -17,7 +18,9 @@ export class EmployeeDashboardComponent implements OnInit {
   employeeModels = new EmployeeModels();
   constructor(private formbuilder : FormBuilder,
               private api : ApiService,
-              private toastr: ToastrService
+              private toastr: ToastrService,
+
+              public  authApi : AuthApiService,
 
   ) {
 

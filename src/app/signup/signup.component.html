@@ -3,7 +3,7 @@
 
   <h2>Sign Up</h2>
 
-  <form [formGroup]="form">
+  <form [formGroup]="signupform" (ngSubmit)="signup()">
 
     <div class="form-group">
       <label >Full Name</label>
@@ -14,7 +14,7 @@
            *ngIf="fullName.touched && fullName.invalid"
       >
         <div  *ngIf="fullName.errors?.required  || fullName.value.length == 0">
-          please Enter Your Email
+          please Enter Your fullName
         </div>
       </div>
     </div>
@@ -22,12 +22,12 @@
       <label >Mobile Number</label>
 
       <input type="number"  class="form-control"
-             formControlName="fullName" >
+             formControlName="mobile" >
       <div class="alert alert-danger" role="alert"
            *ngIf="mobile.touched && mobile.invalid"
       >
         <div  *ngIf="mobile.errors?.required  || mobile.value.length == 0">
-          please Enter Your Email
+          please Enter Your mobile
         </div>
       </div>
     </div>
